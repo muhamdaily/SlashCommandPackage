@@ -24,10 +24,3 @@ const prefixFolders = fs.readdirSync("./src/prefixCommands");
     client.handlePrefixes(prefixFolders)
     client.login(process.env.DISCORD_TOKEN)
 })();
-
-
-
-
-
-
-
